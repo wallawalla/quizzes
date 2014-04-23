@@ -2,51 +2,61 @@
     {
         "name":"quizzOne",
         "title":"Quizzzzz",
+        "img":"./resources/img/01.jpg",
         "themes":["themeTwo"]
     },
     {
         "name":"quizzTwo",
         "title":"Quizzzzz",
+        "img":"./resources/img/01.jpg",
         "themes":["movies"]
     },
     {
         "name":"quizzThree",
         "title":"Quizzzzz",
+        "img":"./resources/img/01.jpg",
         "themes":["themeSeven"]
     },
     {
         "name":"quizzFour",
         "title":"Quizzzzz",
+        "img":"./resources/img/01.jpg",
         "themes":["themeThree"]
     },
     {
         "name":"quizzFive",
         "title":"Quizzzzz",
+        "img":"./resources/img/01.jpg",
         "themes":["movies"]
     },
     {
         "name":"quizzSix",
         "title":"Quizeiofueiofudiofsd",
+        "img":"./resources/img/01.jpg",
         "themes":["movies"]
     },
     {
         "name":"quizzSeven",
         "title":"Quizeiofueiofudiofsd",
+        "img":"./resources/img/01.jpg",
         "themes":["themeTwo"]
     },
     {
         "name":"quizzEight",
         "title":"Quizeiofueiofudiofsd",
+        "img":"./resources/img/01.jpg",
         "themes":["themeThree"]
     },
     {
         "name":"quizzNine",
         "title":"Quizeiofueiofudiofsd",
+        "img":"./resources/img/01.jpg",
         "themes":["themeTwo"]
     },
     {
         "name":"quizzTen",
         "title":"Quizeiofueiofudiofsd",
+        "img":"./resources/img/01.jpg",
         "themes":["movies"]
     }
 ]

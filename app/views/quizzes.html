@@ -11,8 +11,13 @@
 <section ng-controller="QuizzesCtrl">
     <h1 class="tt1">{{ theme }}</h1>
     <ul class="quizzes">
-        <li ng-repeat="quizz in quizzes" class="iBlock vMid">
-            <a href="#quizz/{{ quizz.name }}">{{ quizz.title }}</a>
+        <li ng-repeat="quizz in quizzes" class="item-isotope">
+            <figure class="rel">
+                <a><img src="{{ quizz.img }}" alt=""></a>
+                <figcaption class="row full">
+                    <a href="#quizz/{{ quizz.name }}" class="row full txtCenter"><span>{{ quizz.title }}</span></a>
+                </figcaption>
+            </figure>
         </li>
     </ul>
 </section>

@@ -56,3 +56,14 @@
             -moz-transition:all .25s ease-in;
             -webkit-transition:all .25s ease-in;
     }
+
+/* ISOTOPE */
+    .item-isotope {
+        height:175px;
+        width:175px;
+    }
+    .item-isotope figcaption {
+        bottom:0;
+        left:0;
+        position:absolute;
+    }
