@@ -1,0 +1,30 @@
+{
+    "en": [
+        {
+            "href":"themes",
+            "title":"List Of Themes"
+        },
+        {
+            "href":"highscores",
+            "title":"Highscores"
+        },
+        {
+            "href":"createQuizz",
+            "title":"Create Your Own Quizz"
+        }
+    ],
+    "fr": [
+        {
+            "href":"themes",
+            "title":"Liste Des Thèmes"
+        },
+        {
+            "href":"highscores",
+            "title":"Meilleurs Scores"
+        },
+        {
+            "href":"createQuizz",
+            "title":"Créez Votre Quizz"
+        }
+    ]
+}

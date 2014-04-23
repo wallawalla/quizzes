@@ -1,0 +1,13 @@
+<header class="header">
+    <nav id="nav" ng-controller="NavCtrl">
+        <ul class="menu">
+            <li ng-repeat="section in sections" class="iBlock vMid">
+                <a class="row full" href="#{{ section.href }}">{{ section.title }}</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <p>welcome to the homepage !</p>
+</section>
