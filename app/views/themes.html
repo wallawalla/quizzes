@@ -1,24 +1,4 @@
-<section ng-controller="ThemesCtrl">
-    <h1 class="tt1">Thèmes disponibles !</h1>
-    <div id="themes-swiper" class="swiper-container">
-        <ul class="themes swiper-wrapper">
-            <li ng-repeat="theme in themes" class="swiper-slide capOne">
-                <figure>
-                    <a href="#theme/{{ theme.name }}" class="row full">
-                        <img src="images/default.gif" class="row full" alt="">
-                    </a>
-                    <figcaption>
-                        <a href="#theme/{{ theme.name }}" class="row full txtCenter">
-                            <span class="tt2">{{ theme.title }}</span>
-                        </a>
-                    </figcaption>
-                </figure>
-            </li>
-        </ul>
-    </div>
-</section>
-
-<footer id="footer">
+<aside id="aside">
     <nav id="nav" ng-controller="NavCtrl">
         <ul class="menu txtCenter">
             <li ng-repeat="section in sections" class="iBlock vMid">
@@ -31,4 +11,22 @@
             </li>
         </ul>
     </nav>
-</footer>
+</aside><!--
+--><section ng-controller="ThemesCtrl" class="sideContent">
+    <div id="themes-swiper" class="swiper-container">
+        <ul class="themes swiper-wrapper">
+            <li ng-repeat="theme in themes" class="swiper-slide capOne">
+                <figure>
+                    <a href="#theme/{{ theme.name }}" class="row full">
+                        <img src="resources/img/{{ theme.name }}.jpg" class="row full" alt="">
+                    </a>
+                    <figcaption>
+                        <a href="#theme/{{ theme.name }}" class="row full txtCenter">
+                            <span class="tt1">{{ theme.title }}</span>
+                        </a>
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+    </div>
+</section>

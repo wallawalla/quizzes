@@ -1,0 +1,16 @@
+<aside id="aside">
+    <nav id="nav" ng-controller="NavCtrl">
+        <ul class="menu txtCenter">
+            <li ng-repeat="section in sections" class="iBlock vMid">
+                <figure>
+                    <a href="#{{ section.href }}"><img src="images/icon-{{ section.href }}.png"></a>
+                    <figcaption>
+                        <a class="row full" href="#{{ section.href }}">{{ section.title }}</a>
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+    </nav>
+</aside><!--
+--><section class="sideContent" ng-controller="QuestionCtrl">
+</section>

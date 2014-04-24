@@ -2,79 +2,66 @@
     {
         "name":"quizzOne",
         "title":"Quizzzzz",
-        "img":"./resources/img/01.jpg",
-        "themes":["music"]
+        "img":"./resources/img/01.jpg"
     },
     {
         "name":"quizzTwo",
         "title":"Quizzzzz",
-        "img":"./resources/img/01.jpg",
-        "themes":["movies"]
+        "img":"./resources/img/01.jpg"
     },
     {
         "name":"quizzThree",
         "title":"Quizzzzz",
-        "img":"./resources/img/01.jpg",
-        "themes":["themeSeven"]
+        "img":"./resources/img/01.jpg"
     },
     {
         "name":"quizzFour",
         "title":"Quizzzzz",
-        "img":"./resources/img/01.jpg",
-        "themes":["celebrities"]
+        "img":"./resources/img/01.jpg"
     },
     {
         "name":"quizzFive",
         "title":"Quizzzzz",
-        "img":"./resources/img/01.jpg",
-        "themes":["movies"]
+        "img":"./resources/img/01.jpg"
     },
     {
         "name":"quizzSix",
         "title":"Quizeiofueiofudiofsd",
-        "img":"./resources/img/01.jpg",
-        "themes":["movies"]
+        "img":"./resources/img/01.jpg"
     },
     {
         "name":"quizzSeven",
         "title":"Quizeiofueiofudiofsd",
-        "img":"./resources/img/01.jpg",
-        "themes":["music"]
+        "img":"./resources/img/01.jpg"
     },
     {
         "name":"quizzEight",
         "title":"Quizeiofueiofudiofsd",
-        "img":"./resources/img/01.jpg",
-        "themes":["celebrities"]
+        "img":"./resources/img/01.jpg"
     },
     {
         "name":"quizzNine",
         "title":"Quizeiofueiofudiofsd",
-        "img":"./resources/img/01.jpg",
-        "themes":["music"]
+        "img":"./resources/img/01.jpg"
     },
     {
         "name":"quizzTen",
         "title":"Quizeiofueiofudiofsd",
-        "img":"./resources/img/01.jpg",
-        "themes":["movies"]
+        "img":"./resources/img/01.jpg"
     },
     {
         "name":"quizzEight",
         "title":"Quizeiofueiofudiofsd",
-        "img":"./resources/img/01.jpg",
-        "themes":["celebrities"]
+        "img":"./resources/img/01.jpg"
     },
     {
         "name":"quizzNine",
         "title":"Quizeiofueiofudiofsd",
-        "img":"./resources/img/01.jpg",
-        "themes":["music"]
+        "img":"./resources/img/01.jpg"
     },
     {
         "name":"quizzTen",
         "title":"Quizeiofueiofudiofsd",
-        "img":"./resources/img/01.jpg",
-        "themes":["movies"]
+        "img":"./resources/img/01.jpg"
     }
 ]

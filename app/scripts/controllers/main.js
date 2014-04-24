@@ -2,5 +2,4 @@
 
 angular
     .module('quizzesApp')
-    .controller('MainCtrl', function ($scope) {
-    });
+    .controller('MainCtrl', function () {});

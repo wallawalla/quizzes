@@ -13,11 +13,15 @@
     </nav>
 </aside><!--
 --><section class="sideContent" ng-controller="QuizzesCtrl">
-    <h1 class="tt1">{{ theme }}</h1>
+    <header class="header">
+        <h1 class="tt1">{{ theme }}</h1>
+    </header>
     <ul class="quizzes">
         <li ng-repeat="quizz in quizzes" class="item-isotope">
             <figure class="rel">
-                <a><img src="{{ quizz.img }}" alt=""></a>
+                <a href="#quizz/{{ quizz.name }}" class="row full">
+                    <img src="{{ quizz.img }}" alt="">
+                </a>
                 <figcaption class="row full">
                     <a href="#quizz/{{ quizz.name }}" class="row full txtCenter"><span>{{ quizz.title }}</span></a>
                 </figcaption>

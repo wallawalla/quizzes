@@ -9,5 +9,7 @@ angular
             .when('/themes', {templateUrl: 'views/themes.html',controller: 'ThemesCtrl'})
             .otherwise({redirectTo: '/'})
             .when('/theme/:id', {templateUrl: 'views/quizzes.html',controller: 'QuizzesCtrl'})
+            .otherwise({redirectTo: '/'})
+            .when('/quizz/:id', {templateUrl: 'views/quizzes.html',controller: 'QuizzesCtrl'})
             .otherwise({redirectTo: '/'});
     });
