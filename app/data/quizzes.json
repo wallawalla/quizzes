@@ -3,7 +3,7 @@
         "name":"quizzOne",
         "title":"Quizzzzz",
         "img":"./resources/img/01.jpg",
-        "themes":["themeTwo"]
+        "themes":["music"]
     },
     {
         "name":"quizzTwo",
@@ -21,7 +21,7 @@
         "name":"quizzFour",
         "title":"Quizzzzz",
         "img":"./resources/img/01.jpg",
-        "themes":["themeThree"]
+        "themes":["celebrities"]
     },
     {
         "name":"quizzFive",
@@ -39,19 +39,37 @@
         "name":"quizzSeven",
         "title":"Quizeiofueiofudiofsd",
         "img":"./resources/img/01.jpg",
-        "themes":["themeTwo"]
+        "themes":["music"]
     },
     {
         "name":"quizzEight",
         "title":"Quizeiofueiofudiofsd",
         "img":"./resources/img/01.jpg",
-        "themes":["themeThree"]
+        "themes":["celebrities"]
     },
     {
         "name":"quizzNine",
         "title":"Quizeiofueiofudiofsd",
         "img":"./resources/img/01.jpg",
-        "themes":["themeTwo"]
+        "themes":["music"]
+    },
+    {
+        "name":"quizzTen",
+        "title":"Quizeiofueiofudiofsd",
+        "img":"./resources/img/01.jpg",
+        "themes":["movies"]
+    },
+    {
+        "name":"quizzEight",
+        "title":"Quizeiofueiofudiofsd",
+        "img":"./resources/img/01.jpg",
+        "themes":["celebrities"]
+    },
+    {
+        "name":"quizzNine",
+        "title":"Quizeiofueiofudiofsd",
+        "img":"./resources/img/01.jpg",
+        "themes":["music"]
     },
     {
         "name":"quizzTen",

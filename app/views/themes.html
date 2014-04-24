@@ -1,18 +1,8 @@
-<header class="header">
-    <nav id="nav" ng-controller="NavCtrl">
-        <ul class="menu">
-            <li ng-repeat="section in sections" class="iBlock vMid">
-                <a href="#/theme/{{ section.href }}">{{ section.title }}</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-
 <section ng-controller="ThemesCtrl">
     <h1 class="tt1">Thèmes disponibles !</h1>
     <div id="themes-swiper" class="swiper-container">
         <ul class="themes swiper-wrapper">
-            <li ng-repeat="theme in themes" class="swiper-slide">
+            <li ng-repeat="theme in themes" class="swiper-slide capOne">
                 <figure>
                     <a href="#theme/{{ theme.name }}" class="row full">
                         <img src="images/default.gif" class="row full" alt="">
@@ -27,3 +17,18 @@
         </ul>
     </div>
 </section>
+
+<footer id="footer">
+    <nav id="nav" ng-controller="NavCtrl">
+        <ul class="menu txtCenter">
+            <li ng-repeat="section in sections" class="iBlock vMid">
+                <figure>
+                    <a href="#{{ section.href }}"><img src="images/icon-{{ section.href }}.png"></a>
+                    <figcaption>
+                        <a class="row full" href="#{{ section.href }}">{{ section.title }}</a>
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+    </nav>
+</footer>

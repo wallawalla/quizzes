@@ -1,8 +1,12 @@
 {
     "en": [
         {
+            "href":"home",
+            "title":"Home"
+        },
+        {
             "href":"themes",
-            "title":"List Of Themes"
+            "title":"Themes"
         },
         {
             "href":"highscores",
@@ -10,13 +14,17 @@
         },
         {
             "href":"createQuizz",
-            "title":"Create Your Own Quizz"
+            "title":"Create Quizz"
         }
     ],
     "fr": [
         {
+            "href":"home",
+            "title":"Accueil"
+        },
+        {
             "href":"themes",
-            "title":"Liste Des Thèmes"
+            "title":"Thèmes"
         },
         {
             "href":"highscores",
@@ -24,7 +32,7 @@
         },
         {
             "href":"createQuizz",
-            "title":"Créez Votre Quizz"
+            "title":"Créer Quizz"
         }
     ]
 }

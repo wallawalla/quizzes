@@ -3,15 +3,18 @@
 angular
     .module('quizzesApp')
     .controller('ThemesCtrl', function ($scope, $http) {
+        $scope.swiperInstantiated = false;
         $http.get('data/themes.json').success(function (data) {
             $scope.themes = data;
             setTimeout(function () {
                 $scope.initSwiper();
-            }, 200);
+            }, 100);
         });
 
         $scope.initSwiper = function () {
-            if(!$scope.swiper) {
+            console.log($scope.swiperInstantiated);
+            if(!$scope.swiperInstantiated) {
+                $scope.swiperInstantiated = true;
                 $scope.swiper = new Swiper('#themes-swiper', {
                     mode:'horizontal',
                     loop:true,
@@ -19,9 +22,7 @@ angular
                     tdFlow: {
                         rotate:0,
                         stretch:0,
-                        depth:100,
-                        modifier:1,
-                        shadows:true
+                        depth:100
                     }
                 });
             }

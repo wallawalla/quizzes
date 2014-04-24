@@ -1,13 +1,20 @@
-<header class="header">
+<section class="txtCenter">
+    <div class="round txtCenter">
+        <h1 class="row tt1">Welcome !</h1>
+    </div>
+</section>
+
+<footer id="footer">
     <nav id="nav" ng-controller="NavCtrl">
-        <ul class="menu">
+        <ul class="menu txtCenter">
             <li ng-repeat="section in sections" class="iBlock vMid">
-                <a class="row full" href="#{{ section.href }}">{{ section.title }}</a>
+                <figure>
+                    <a href="#{{ section.href }}"><img src="images/icon-{{ section.href }}.png"></a>
+                    <figcaption>
+                        <a class="row full" href="#{{ section.href }}">{{ section.title }}</a>
+                    </figcaption>
+                </figure>
             </li>
         </ul>
     </nav>
-</header>
-
-<section>
-    <p>welcome to the homepage !</p>
-</section>
+</footer>
