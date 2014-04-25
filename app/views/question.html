@@ -13,4 +13,8 @@
     </nav>
 </aside><!--
 --><section class="sideContent" ng-controller="QuestionCtrl">
+    <ul class="questions">
+        <li ng-repeat="question in questions" ng-include="'views/tmp_'+question.type+'.html'">
+        </li>
+    </ul>
 </section>

@@ -133,12 +133,20 @@
 /* ISOTOPE */
     .item-isotope {
         height:175px;
+        overflow:hidden;
         width:175px;
     }
     .item-isotope figcaption {
-        bottom:0;
+        top:0;
         left:0;
         position:absolute;
+        width:100%;
+    }
+    .item-isotope:hover figure img {
+        transform:scale(1.4) rotate(-20deg);
+            -webkit-transform:scale(1.4) rotate(-20deg);
+        transition:all 2s ease-in;
+            -webkit-transition:all .2s ease-in;
     }
 
 /* DRAWINGS */
@@ -262,5 +270,23 @@
         100% {
             left:40%;
             transform:rotate(380deg);
+        }
+    }
+    @keyframes busted {
+        0% {
+            transform:scale(1) rotate(0deg);
+                -webkit-transform:scale(1) rotate(0deg);
+        }
+        100% {
+        }
+    }
+    @-webkit-keyframes busted {
+        0% {
+            transform:scale(1) rotate(0deg);
+                -webkit-transform:scale(1) rotate(0deg);
+        }
+        100% {
+            transform:scale(1.4) rotate(-20deg);
+                -webkit-transform:scale(1.4) rotate(-20deg);
         }
     }

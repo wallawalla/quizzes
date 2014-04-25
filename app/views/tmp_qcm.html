@@ -1,0 +1,9 @@
+<div class="qcm">
+    <p>{{ question.title }}:</p>
+    <ul>
+        <li ng-repeat="choice in question.choices">
+            <input type="radio" value="{{ index }}">{{ choice }}
+        </li>
+    </ul>
+    <button ng-click="validate()">Validate</button>
+</div>

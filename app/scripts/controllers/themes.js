@@ -6,6 +6,7 @@ angular
     .module('quizzesApp')
     .controller('ThemesCtrl', function ($scope, $http) {
         $scope.swiperInstantiated = false;
+
         $http.get('data/themes.json').success(function (data) {
             $scope.themes = data;
             setTimeout(function () {
